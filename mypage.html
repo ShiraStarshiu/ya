@@ -12,12 +12,11 @@
     <h1> My first page </h1>
 
     <div class="quest-block">
-        <div class="question">Общие вопросы:</div>
-        <hr class="under-question"/>
+        <span class="question">Общие вопросы:</span>
         <ul class="qa-list__layout">
             <li class="qa-list__layout-unit">
                 <span class="question__item">Фамилия, имя, отчество</span>
-                <span class="answer__item">A: Вася пупкин</span>
+                <span class="answer__item">Вася пупкин</span>
             </li>
             <li class="qa-list__layout-unit">
                 <span class="question__item">Год рождения</span>
@@ -35,8 +34,7 @@
     </div>
 
     <div class="quest-block">
-        <div class="question">Опыт разработки:</div>
-        <hr class="under-question"/>
+        <span class="question">Общие вопросы:</span>
         <ul class="qa-list__layout">
             <li class="qa-list__layout-unit">
                 <span class="question__item">Фамилия, имя, отчество</span>
@@ -58,42 +56,19 @@
     </div>
 </div>
 <script>
-    //аккордеон
     $('.question').click(function(){
         var index = ($('.question').index(this));
         var element_hide = $('.qa-list__layout:eq('+ index +')');
 
         if ( element_hide.is(':visible') ) {
-            element_hide.slideToggle(300);
+            element_hide.hide('fast', function() {
+            });
         }
         else {
-            element_hide.slideToggle(300);
+            element_hide.show('fast', function() {
+            });
         }
     });
-    //аккордеон
-
-    //подсветка answer__item
-    $('.qa-list__layout-unit').hover(function(){
-        var index = ($('.qa-list__layout-unit').index(this));
-        var element_hover = $('.answer__item:eq('+ index +')');
-        element_hover.css("background-color","#FFFACF");
-    }, function(){
-        var element_hover = $('.answer__item');
-        element_hover.css("background-color","white");
-    });
-    //подсветка answer__item
-
-    //дописываем начало вопроса и ответа
-    var q_element= $('.question__item');
-    var a_element= $('.answer__item');
-
-    for (i = 0; i <= q_element.length; i++){
-        var q_val=q_element[i].innerHTML;
-        var a_val=a_element[i].innerHTML;
-        q_element[i].innerHTML = '<span class="q-simvol">Q: </span>' + q_val;
-        a_element[i].innerHTML = '<span class="a-simvol">A: </span>' + a_val;
-    }
-    //дописываем начало вопроса и ответа
 </script>
 </body>
 </html>
