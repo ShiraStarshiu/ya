@@ -23,7 +23,7 @@
       <file leaf-file-name="mypage.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mypage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="10" selection-start="0" selection-end="3573" vertical-scroll-proportion="0.050970875">
+            <state line="98" column="7" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.95873785">
               <folding />
             </state>
           </provider>
@@ -32,8 +32,10 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="19" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1354653481464" expanded="true" signature="200:225" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -266,20 +268,24 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1354653481464" expanded="true" signature="200:225" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="11" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1354653481464" expanded="true" signature="200:225" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mypage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="10" selection-start="0" selection-end="3573" vertical-scroll-proportion="0.050970875">
+        <state line="98" column="7" selection-start="3573" selection-end="3573" vertical-scroll-proportion="0.95873785">
           <folding />
         </state>
       </provider>
