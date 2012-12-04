@@ -1,24 +1,50 @@
 .qa-list__layout {
     list-style: none;
+    margin-left: -20px;
+    margin-right: 20px;
 }
 
 .qa-list__layout-unit {
-    margin-top: 15px;
+    padding: 6px;
 }
 
+.answer__item {
+    padding: 3px 0 1px 3px;
+    border-bottom: 1px #82b253 dotted;
+}
 .question {
     font-size: 24px;
+    cursor:pointer;
+    background-color: #ffd781;
+    padding: 5px;
+}
+.question__item{
+    padding: 3px;
+}
+.under-question {
+    margin-top: 1px;
 }
 
+.under-qa-list {
+    margin-top: 1px;
 
+}
+.q-simvol {
+    color: #c6c5c6;
+}
+.a-simvol {
+    color: #c6c5c6;
+}
 .answer__item, .question__item{
     display: block;
 }
 
 .resume {
     background-color: white;
-    width: 800px;
+    width: 600px;
     margin: auto;
+    padding: 60px;
 }
 body {
+    background-color: #626262;
 }
