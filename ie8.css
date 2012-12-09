@@ -1,0 +1,17 @@
+.question {
+    background-color: transparent;
+    border: 0;
+    }
+.mid-question {
+    background-image: url(img/mid-question.png);
+    }
+.left-question{
+    background-image: url(img/left-question.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    }
+.right-question {
+    background-image: url(img/right-question.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    }

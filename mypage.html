@@ -3,21 +3,36 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]> <link href= "ie8.css" rel= "stylesheet" media= "all" /> <![endif]-->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <title> favorites / bookmark title goes here </title>
+    <script src="interaktiv.js"></script>
+    <title>Страница-резюме с ответами на вопросы</title>
 </head>
 <body>
-
 <div class="resume">
-    <h1> My first page </h1>
-
+    <div class="contact">
+        <div class="element-contact">
+            <span class="title-contact_element">Email: </span>
+            <span class="content-contact_element"><a href="mailto:mebelkiparis@mail.ru">ShiraStarshiu@gmail.com</a></span>
+        </div>
+        <div class="element-contact">
+            <span class="title-contact_element">МТС: </span>
+            <span class="content-contact_element">095 47-27-497</span>
+        </div>
+    </div>
+    <h1>Страница-резюме.</h1>
     <div class="quest-block">
-        <div class="question">Общие вопросы:</div>
-        <hr class="under-question"/>
+        <div class="mid-question">
+        <div class="right-question">
+        <div class="left-question">
+        <div class="question">Общие:</div>
+        </div>
+        </div>
+        </div>
         <ul class="qa-list__layout">
             <li class="qa-list__layout-unit">
                 <span class="question__item">Фамилия, имя, отчество</span>
-                <span class="answer__item">A: Вася пупкин</span>
+                <span class="answer__item">Ширин Роман Олегович</span>
             </li>
             <li class="qa-list__layout-unit">
                 <span class="question__item">Год рождения</span>
@@ -28,72 +43,75 @@
                 <span class="answer__item">Симферополь</span>
             </li>
             <li class="qa-list__layout-unit">
+                <span class="question__item">Вуз, факультет, специальность, кафедра</span>
+                <span class="answer__item">Таврический Национальный Университет им. В. И. Вернадского. Факультет математики и информатики. Специальность информатика. Кафедра информатики.</span>
+            </li>
+            <li class="qa-list__layout-unit">
                 <span class="question__item">Год окончания вуза</span>
-                <span class="answer__item">Вася пупкин</span>
+                <span class="answer__item">Еще не окончил.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Уровень владения английским языком</span>
+                <span class="answer__item">Intermediate</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Чего вы ожидаете от участия в Школе?</span>
+                <span class="answer__item">Научиться у профессионалов, как надо мыслить и работать.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Откуда вы о нас узнали?</span>
+                <span class="answer__item">Из объявления в университете.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Сколько времени вы готовы уделять стажировке или работе в Яндексе?</span>
+                <span class="answer__item">От пяти и более часов в день.</span>
             </li>
         </ul>
     </div>
-
     <div class="quest-block">
+        <div class="mid-question">
+        <div class="right-question">
+        <div class="left-question">
         <div class="question">Опыт разработки:</div>
-        <hr class="under-question"/>
+        </div>
+        </div>
+        </div>
         <ul class="qa-list__layout">
             <li class="qa-list__layout-unit">
-                <span class="question__item">Фамилия, имя, отчество</span>
-                <span class="answer__item">Вася пупкин</span>
+                <span class="question__item">Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как серьезный интерфейс, так и просто домашняя страничка.</span>
+                <span class="answer__item">Самостоятельно на заказ сделал сайт (с небольшим движком на PHP) <nobr><a href="http://kiparis-mebel.com.ua/" class="link" target="_blank" title="в новой вкладке">kiparis-mebel.com.ua</a></nobr>.</span>
             </li>
             <li class="qa-list__layout-unit">
-                <span class="question__item">Год рождения</span>
-                <span class="answer__item">1993</span>
+                <span class="question__item">Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли у вас личные предпочтения?</span>
+                <span class="answer__item">При решении задач на котестах использую C, C++. Из клиентских языков веб-программирования JavaScript + библиотека (jQuery), из серверных — PHP, MySQL и Python (на данный момент время уделяю именно ему, изучая совместно с Django). Предпочтения складываются в сторону Python.</span>
             </li>
             <li class="qa-list__layout-unit">
-                <span class="question__item">Город, в котором живёте</span>
-                <span class="answer__item">Симферополь</span>
+                <span class="question__item">С какими редакторами и средами разработки вы знакомы? Чем обычно пользуетесь?</span>
+                <span class="answer__item">Visual Studio, Eclipse и PyCharm (эту страницу писал в нём).</span>
             </li>
             <li class="qa-list__layout-unit">
-                <span class="question__item">Год окончания вуза</span>
-                <span class="answer__item">Вася пупкин</span>
+                <span class="question__item">С какими ОС приходилось сталкиваться? Для каких целей вы их применяли?</span>
+                <span class="answer__item">Windows (интересовала разработка приложений под восьмую версию) она же и является основной. Linux в учебыных целях.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Приходилось ли вам работать с системами контроля версий? С какими? Какая из них вам нравится больше всего?</span>
+                <span class="answer__item">Нет, не приходилось. Но недавно начал знакомится с <a href="https://github.com/ShiraStarshiu/ya/" class="link" target="_blank" title="в новой вкладке">GitHub</a>.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Использовали ли вы системы постановки и ведения задач?</span>
+                <span class="answer__item">Не использовал.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Какие полезные для фронтенд-разработчика ресурсы вы используете и готовы посоветовать?</span>
+                <span class="answer__item"><a href="http://habrahabr.ru/" class="link" target="_blank" title="в новой вкладке">Хабрахабр</a> и ресурс <a href="http://chriscoyier.net/" class="link" target="_blank" title="в новой вкладке">Криса Койера</a> — <a href="http://css-tricks.com" class="link" target="_blank" title="в новой вкладке">css-tricks.com</a>.</span>
+            </li>
+            <li class="qa-list__layout-unit">
+                <span class="question__item">Где вы работали раньше? Что именно делали? Есть ли у вас опыт работы в команде?</span>
+                <span class="answer__item">Недолго, больше как дизайнер, работал в небольшой команде, занимались разработкой шаблонов для DLE. Вот <a href="myimage.html" class="link">примеры</a> что делал.</span>
             </li>
         </ul>
     </div>
+    <a href="#" class="scrollup">Наверх страницы</a>
 </div>
-<script>
-    //аккордеон
-    $('.question').click(function(){
-        var index = ($('.question').index(this));
-        var element_hide = $('.qa-list__layout:eq('+ index +')');
-
-        if ( element_hide.is(':visible') ) {
-            element_hide.slideToggle(300);
-        }
-        else {
-            element_hide.slideToggle(300);
-        }
-    });
-    //аккордеон
-
-    //подсветка answer__item
-    $('.qa-list__layout-unit').hover(function(){
-        var index = ($('.qa-list__layout-unit').index(this));
-        var element_hover = $('.answer__item:eq('+ index +')');
-        element_hover.css("background-color","#FFFACF");
-    }, function(){
-        var element_hover = $('.answer__item');
-        element_hover.css("background-color","white");
-    });
-    //подсветка answer__item
-
-    //дописываем начало вопроса и ответа
-    var q_element= $('.question__item');
-    var a_element= $('.answer__item');
-
-    for (i = 0; i <= q_element.length; i++){
-        var q_val=q_element[i].innerHTML;
-        var a_val=a_element[i].innerHTML;
-        q_element[i].innerHTML = '<span class="q-simvol">Q: </span>' + q_val;
-        a_element[i].innerHTML = '<span class="a-simvol">A: </span>' + a_val;
-    }
-    //дописываем начало вопроса и ответа
-</script>
 </body>
 </html>

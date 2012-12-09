@@ -1,50 +1,123 @@
-.qa-list__layout {
-    list-style: none;
-    margin-left: -20px;
-    margin-right: 20px;
-}
-
-.qa-list__layout-unit {
-    padding: 6px;
-}
-
-.answer__item {
-    padding: 3px 0 1px 3px;
-    border-bottom: 1px #82b253 dotted;
-}
-.question {
-    font-size: 24px;
-    cursor:pointer;
-    background-color: #ffd781;
-    padding: 5px;
-}
-.question__item{
-    padding: 3px;
-}
-.under-question {
-    margin-top: 1px;
-}
-
-.under-qa-list {
-    margin-top: 1px;
-
-}
-.q-simvol {
-    color: #c6c5c6;
-}
-.a-simvol {
-    color: #c6c5c6;
-}
-.answer__item, .question__item{
-    display: block;
-}
-
-.resume {
-    background-color: white;
-    width: 600px;
-    margin: auto;
-    padding: 60px;
-}
 body {
-    background-color: #626262;
-}
+    background-image: url(img/fon.png);
+    font-family: "Times New Roman", Georgia, serif;
+    }
+    h1 {
+        margin-top: 40px;
+    }
+    .link {
+        color: blue;
+        border-bottom: 1px blue solid;
+        text-decoration: none;
+    }
+    .link:visited {
+        color: purple;
+        border-bottom: 1px purple solid;
+    }
+    .link:hover{
+        color: red;
+        border-bottom: 1px red solid;
+    }
+    .contact {
+        float: right;
+        margin-top: -20px;
+    }
+        .element-contact {
+            margin-left: 20px;
+            color: #754f11;
+            margin-bottom: 3px;
+            }
+            .element-contact a {
+                color: blue;
+                text-decoration: none;
+                border-bottom: 1px blue solid;
+            }
+            .element-contact a:hover {
+                color: red;
+                border-bottom: 1px red solid;
+            }
+        .content-contact_element {
+            text-align: left;
+        }
+        .title-contact_element {
+            font-weight: bold;
+            text-align: left;
+            margin-right: 6px;
+            color: #919191;
+            }
+    .resume {
+        background-color: white;
+        width: 600px;
+        margin: auto;
+        padding: 60px;
+        -moz-box-shadow: 0 0 15px rgba(0,0,0,0.80);
+        -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.80);
+        box-shadow: 0 0 15px rgba(0,0,0,0.80);
+        }
+        .scrollup {
+            margin-left: 22px;
+            text-decoration: none;
+            color: blue;
+            border-bottom: 1px blue solid;
+            }
+        .scrollup:hover {
+            color: red;
+            border-bottom: 1px red solid;
+            }
+        .quest-block{
+            margin-top: 2px;
+            position: relative;
+            }
+            .question {
+                position: relative;
+                margin-bottom: 10px;
+                font-size: 24px;
+                cursor: pointer;
+                padding: 5px;
+                background-color: #ffd781;
+                border-bottom: 1px #d18c39 solid;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
+                text-indent: 15px;
+                }
+            .cnt_question {
+                margin: 4px 10px 0 10px;
+                font-size: 16px;
+                float: right;
+                color: #754f11;
+                }
+            .vh_questionl {
+                text-decoration: none;
+                border-bottom: 1px #754f11 solid;
+                }
+                .qa-list__layout {
+                    list-style: none;
+                    margin-right: 20px;
+                    margin-top: 0;
+                    }
+                    .qa-list__layout-unit {
+                        padding-bottom: 12px;
+                        padding-top: 12px;
+                        }
+                        .answer__item, .question__item{
+                            display: block;
+                            }
+                        .answer__item {
+                            padding: 3px 0 3px 1px;
+                            border-bottom: 1px #443822 dotted;
+
+                            }
+                        .question__item{
+                            padding: 3px 0 3px 1px;
+
+                            }
+                            .q-simvol {
+                                color: #c6c5c6;
+                                margin-left: -20px;
+                                }
+                            .a-simvol {
+                                color: #c6c5c6;
+                                margin-left: -20px;
+                                font-style: normal;
+                                }
