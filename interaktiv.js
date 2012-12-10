@@ -12,10 +12,10 @@ $(document).ready(function() {
         $("body").animate({ scrollTop: 0 }, 600);
     });
 
-    div_question = $('.question'); // все блоки вопросов
+    div_question = $('.question'); // все div блоки вопросов
+    var all_li = $('.qa-list__layout-unit'); // все группы вопрос-ответ
 
     /*____________________________________________/ считаем количество вопросов \_____________________________________*/
-    var all_li = $('.qa-list__layout-unit');
     var index = 0;
     var cnt = 0;
     for(var i = 0; i < all_li.length; i++) {
@@ -85,7 +85,7 @@ $(document).ready(function() {
     all_li.hover(function(){
         var index = ($('.qa-list__layout-unit').index(this));
         var element_hover = $('.answer__item:eq('+ index +')');
-        element_hover.css("background-color","#FFFACF");
+        element_hover.css("background-color","#F5F5EA");
     }, function(){
         var element_hover = $('.answer__item');
         element_hover.css("background-color","white");
